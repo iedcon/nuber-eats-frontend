@@ -58,7 +58,7 @@ const ownerRoutes = [
     component: <MyRestaurant />,
   },
   {
-    path: "/restaurant/:id/add-dish",
+    path: "/restaurant/:restaurantId/add-dish",
     component: <AddDish />,
   },
 ];
